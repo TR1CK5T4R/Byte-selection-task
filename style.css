@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'ubuntu', sans-serif;
+    /* background: url("https://t4.ftcdn.net/jpg/04/03/62/35/360_F_403623508_OhrbkZ1zc2NzB9mN1d2ZcO1WrBDGKsxY.jpg"); */
+    /* background: url("https://img.freepik.com/free-vector/white-background-with-blue-tech-hexagon_1017-19366.jpg?size=626&ext=jpg"); */
+    background: url("https://img.freepik.com/free-vector/abstract-geometric-wireframe-background_52683-59421.jpg?size=626&ext=jpg");
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0;
+    border: 2px solid #3a86ff;
+    background-color: #3a86ff;
+    padding: 20px 15px;
+    color: white;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+nav span {
+    padding: 0 10px;
+}
+
+#home {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#main {
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    /* margin: 0 auto; */
+    /* width: 600px;
+    min-height: 100vh; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* This method is outdated but this is the only way to get the div in center this time*/
+    /* color: #fff; */
+    background: transparent;
+    padding: 35px 30px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+#btn1 {
+    padding: 10px 40px;
+    border: 2px solid #0077b6;
+    margin: 20px 36% 10px;
+    border-radius: 25px;
+    background-color: #0077b6;
+    color: white;
+}
+
+#btn2 {
+    padding: 10px 40px;
+    border: 2px solid #38b000;
+    margin: 10px 35%;
+    border-radius: 25px;
+    background-color: #38b000;
+    color: white;
+}
+
+p {
+    position: absolute;
+    top: 70%;
+    left: 70%;
+    transform: translate(-110%, -110%);
+}
+
+#btn1:hover {
+    cursor: pointer;
+    padding: 12px 42px;
+    transition: all 0.2s ease-in;
+    background-color: #023e8a;
+    border: 2px solid #023e8a;
+}
+
+#btn2:hover {
+    cursor: pointer;
+    padding: 12px 42px;
+    transition: all 0.2s ease-in;
+    background-color: #008000;
+    border: 2px solid #008000;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* #copyright {
+    text-align: center;
+} */
